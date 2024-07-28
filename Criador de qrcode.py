@@ -1,3 +1,4 @@
 import qrcode
 Informacaooulink = ""
-qrcode.make(Informacaooulink).save("C:/Users/luckp/Desktop/Testes/qrcode.png")
+caminho = "C:/Users/luckp/Desktop/Testes/qrcode.png"
+qrcode.make(Informacaooulink).save(caminho)

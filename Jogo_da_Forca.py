@@ -6,7 +6,7 @@ b="c"
 vidas = int(input("Quantidade de vidas: "))
 os.system("cls")
 
-for letra in palavra:
+for letra in range(len(palavra)):
     palavraescondida.append("_")
 os.system("cls")
 
@@ -23,7 +23,7 @@ while "_" in palavraescondida and vidas>0 and b!=palavra:
         for i in range(len(palavra)):
             if palavra[i] == a:
                 palavraescondida[i] = a
-    else:
+    elif b!=palavra:
         vidas = vidas-1
     letrasusadas.append(a)
     os.system("cls")

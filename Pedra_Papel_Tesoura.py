@@ -10,4 +10,3 @@ elif ((player=="Pedra" and a=="Tesoura") or (player=="Tesoura" and a=="Papel") o
 else:
     print (f"{player} x {a}")
     print ("Você perdeu")
-    
